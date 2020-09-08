@@ -1,0 +1,13 @@
+Controller实现对应Feign接口，注入Service，调用Service方法，方法具体实现由ServiceImpl完成，ServiceImpl中的方法调用Mapper进行查询。
+
+mybatis之foreach用法
+
+BeanUtils.copyProperties() 用法
+
+Pattern和Matcher用法
+
+Calendar和Date类用法
+
+Jedis使用
+
+一致性hash

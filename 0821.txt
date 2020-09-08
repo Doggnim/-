@@ -1,0 +1,19 @@
+No converter found for return value of type
+实体类转成JSON对象时出错，原因是jackson jar包版本不对/过老，在pom中引入最新版本依赖解决。
+
+exclusions排除传递依赖
+在mavenB项目中引入mavenA项目依赖，通过依赖传递，会将mavenA中的jar包传递进来,如果B中不需要A中的某个jar包就可以使用以下标签
+<!--zk-->
+        <dependency>
+            <groupId>org.apache.zookeeper</groupId>
+            <artifactId>zookeeper</artifactId>
+            <version>3.4.14</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-log4j12</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+

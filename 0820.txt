@@ -1,0 +1,1 @@
+Dubbo中，@Service注解加在实现类（Impl）而不是接口类（Service）

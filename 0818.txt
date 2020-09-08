@@ -1,0 +1,11 @@
+Zookeper 服务的注册中心
+DLMiddleware-controller 暴露在外网的app接口，也是各服务的消费者
+DLMiddleware-adapter 接口适配器，用于调用恒生、金证等接口的适配工具
+DLMiddleware-hundsun 恒生接口设配的具体实现
+DLMiddleware-manager 中台管理
+DLMiddleware-monitor 监控器，用于统计服务调用测试时间等数据
+DLMiddleware-util 常用工具类
+DLMiddleware-job 定时任务执行器
+DLMiddleware-velocity 用于中台管理常用CRUD代码生成
+DLMiddleware-exception 用于定义中间件常见的异常返回
+
